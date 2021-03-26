@@ -9,7 +9,6 @@ const UseStateBasics = () => {
       setText('Change To New Tilte')
     }
     else{
-      setText('Random Title')
     }
   };
 
