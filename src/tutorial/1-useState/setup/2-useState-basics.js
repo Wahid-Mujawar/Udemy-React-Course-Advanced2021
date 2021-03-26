@@ -6,7 +6,7 @@ const UseStateBasics = () => {
   const handleClick = () =>{
     if(text === 'Random Title')
     {
-      setText('Change To New Tilte')
+      setText('Change To New Title ')
     }
     else{
       setText('Random Title')
