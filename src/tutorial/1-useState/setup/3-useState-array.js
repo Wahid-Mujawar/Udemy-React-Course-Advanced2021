@@ -14,6 +14,7 @@ const UseStateArray = () => {
         </div>
         )
       })}
+      <button type="button" className="btn" onClick={() =>setPeople([])}>clear items</button>
     </React.Fragment>
   )
 };
