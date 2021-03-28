@@ -8,7 +8,7 @@ const UseStateObject = () => {
   })
 
   const changeMessage =() =>{
-    setPerson({message: 'Computer Science'})
+    setPerson({...person, message: 'Computer Science'})
   }
   return (
     <React.Fragment>
