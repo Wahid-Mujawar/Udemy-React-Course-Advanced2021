@@ -7,8 +7,11 @@ const UseEffectBasics = () => {
 
   useEffect(() =>{
     console.log('Call useEffect')
+    if (value >= 1) {
+      document.title = `New Messages(${value}`
+    }
   });
-  console.log('Render component')
+  console.log('render component')
   return (
     <React.Fragment>
       <h1>{value}</h1>
