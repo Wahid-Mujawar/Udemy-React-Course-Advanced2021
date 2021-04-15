@@ -9,6 +9,7 @@ const ShowHide = () => {
       <button className="btn" onClick = {() =>setShow(!show)}>
         Show/Hide
       </button>
+      {show && <Item/>}
     </React.Fragment>
   )
 };
@@ -17,6 +18,7 @@ const Item = () => {
   return (
       <div style={{marginTop: '2rem'}}>
       <h1>Window</h1>
+      <h2>Size :</h2>
       </div>
     )
 }
