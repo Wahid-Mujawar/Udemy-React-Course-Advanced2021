@@ -18,7 +18,9 @@ const UseEffectFetchData = () => {
 
   return (
     <React.Fragment>
+      
       <h3>GitHub Users</h3>
+
       <ul className="users">
       {users.map((user) => {
         const {id, login, avatar_url, html_url} = user;
