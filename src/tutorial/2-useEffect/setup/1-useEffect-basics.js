@@ -8,7 +8,13 @@ const UseEffectBasics = () => {
   useEffect(() =>{
     console.log('Call useEffect')
   });
-
+  console.log('Render component')
+  return (
+    <React.Fragment>
+      <h1>{value}</h1>
+      <button className="btn" onClick={() => setValue(value + 1)}>Click Me</button>
+    </React.Fragment>
+  )
 };
 
 export default UseEffectBasics;
